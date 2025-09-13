@@ -4,8 +4,6 @@ services:
   flaskapp:
     build: .
     container_name: flask_app
-    ports:
-      - "5001:5000"
     restart: always
     expose:
       - "5000"
